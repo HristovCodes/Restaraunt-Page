@@ -1,0 +1,10 @@
+$mainfont: "Arial";
+
+body {
+  font-family: $mainfont;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
