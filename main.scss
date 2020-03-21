@@ -41,7 +41,7 @@ body {
 }
 
 .tab h1 {
-  color: #0b6e42;
+  color: #4b0082;
   font-weight: bold;
   font-size: 2em;
   text-decoration: underline;
@@ -68,4 +68,21 @@ body {
   border: solid;
   border-bottom: none;
   background-color: #abbff5;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu h2 {
+  color: #4b0082;
+  font-size: 1.1em;
+  text-align: start;
+}
+
+.menu p {
+  color: #000;
+  font-size: 1em;
+  text-align: end;
 }
