@@ -8,6 +8,7 @@ const menu = (() => {
     tab.appendChild(title);
     tab.appendChild(_generateMenu());
     tab.classList.add("tab");
+    tab.id = "menu";
     return tab;
   };
 

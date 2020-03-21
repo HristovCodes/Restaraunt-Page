@@ -11,6 +11,7 @@ const home = (() => {
     tab.classList.add("tab");
     tab.appendChild(title);
     tab.appendChild(text);
+    tab.id = "home";
     return tab;
   };
   return {
